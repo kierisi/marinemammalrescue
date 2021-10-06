@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# marinemammalrescue
+# marinemammalrescue <img src='man/figures/logo.png' align="right" height="139" />
 
 <!-- badges: start -->
 <!-- badges: end -->
@@ -38,14 +38,6 @@ better plot.
 library(marinemammalrescue)
 library(ggplot2)
 library(dplyr)
-#> 
-#> Attaching package: 'dplyr'
-#> The following objects are masked from 'package:stats':
-#> 
-#>     filter, lag
-#> The following objects are masked from 'package:base':
-#> 
-#>     intersect, setdiff, setequal, union
 
 marine_mammals %>% 
   count(collection_site) %>% 
